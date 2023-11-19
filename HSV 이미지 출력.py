@@ -1,5 +1,5 @@
 import cv2
-src = cv2.imread('./DATA/tomato.jpg', cv2.IMREAD_COLOR)
+src = cv2.imread('./data/tomato.jpg', cv2.IMREAD_COLOR)
 hsv = cv2.cvtColor(src, cv2.COLOR_BAYER_BG2BGR)
 h, s, v = cv2.split(hsv)
 

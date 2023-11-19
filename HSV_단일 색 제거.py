@@ -1,5 +1,5 @@
 import cv2
-src = cv2.imread('data/tomato.jpg', cv2.IMREAD_COLOR)
+src = cv2.imread('./data/tomato.jpg', cv2.IMREAD_COLOR)
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 lower_orange = (8*2, 50, 50)
 upper_orange = (20*2, 255, 255)

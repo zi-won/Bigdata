@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture('data/opencv_data/video.avi')
+cap = cv2.VideoCapture('./data/video.avi')
 count = 0
 
 while cap.isOpened():
